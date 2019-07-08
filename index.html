@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/themes/my-custom-theme.css" />
+      <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+     <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   </head>
+
+   <body>
+<style>
+     div.picture1 {
+        width:100%; /*width of your image*/
+        height:200px; /*height of your image*/
+        margin:2px; /* If you want no margin */
+        padding:2px; /*if your want to padding */
+     }
+
+     img {
+       width: 100%;
+       height: 100%;
+     }
+
+     .left {
+       width: 30%;
+       height: 30%;
+       float: left;
+       margin:5px; /* If you want no margin */
+       padding:3px; /*if your want to padding */
+     }
+
+</style>
+<!-- first page -->
+      <div data-role = "page" id = "page1">
+
+          <!--header-->
+
+          <div data-role="header" style="overflow:hidden;">
+
+            <img alt="Banner" title="Client Logo" src='images/jb.jpg' />
+
+            <a href="#" data-icon="gear" class="ui-btn-right">Options</a>
+            <div data-role="navbar">
+                  <ul>
+                      <li><a href="#page2" data-icon="heart">About us</a></li>
+                      <li><a href="#page3" data-icon="info">Menu</a></li>
+                      <li><a href="#page4" data-icon="star">Company info </a></li>
+                  </ul>
+              </div><!-- /navbar -->
+          </div><!-- /header -->
+          <!--header-->
+
+
+         <div role = "main" class = "ui-content">
+           <img class="left" alt="Banner" title="Client Logo" src='images/rh.jpg' />
+            <p> Jollibee is the largest fast food chain in the Philippines, operating a nationwide network of over 750 stores. A dominant market leader in the Philippines, Jollibee enjoys the lion's share of the local market that is more than all the other multinational brands combined. The company has also embarked on an aggressive international expansion plan in the USA, Vietnam, Hong Kong, Saudi Arabia, Qatar and Brunei, firmly establishing itself as a growing international QSR player.
+            </p>
+         </div>
+
+
+         <div data-role="footer">
+             <div data-role="navbar">
+                 <ul>
+                     <li><a href="#page5" data-icon="heart">summary</a></li>
+                     <li><a href="#" data-icon="star" class="ui-btn-active">Favs</a></li>
+                     <li><a href="#" data-icon="gear">Setup</a></li>
+                 </ul>
+             </div><!-- /navbar -->
+     </div><!-- /footer -->
+      </div>
+
+<!-- end of first page -->
+
+<!-- second page -->
+      <div data-role = "page" id = "page2">
+         <div data-role = "About Us">
+           <img src = "images/banner.jpg" alt="1" height="30" width="30">
+            <h1>About Us</h1>
+         </div>
+
+         <div role = "main" class = "ui-content">
+            <p>Jollibee was founded by Tony Tan and his family with its humble beginnings as an Ice Cream Parlor which later grew into an emerging global brand. At the heart of its success is a family-oriented approach to personnel management, making Jollibee one of the most admired employers in the region with an Employer of the Year Award from the Personnel Management Association of the Philippines, Best Employer in the Philippines Award from Hewitt Associated and a Top 20 Employer in Asia citation from the Asian Wall Street Journal.
+
+Aside from promoting a family oriented work environment, the brand’s values also reflect on their advertising and marketing. Jollibee knows their target audience very well: the traditional family and all communication materials focus on the importance of family values, making Jollibee the number one family fast food chain in the Philippines and a growing international QSR player..</p>
+
+            <p><a href = "#page1">Back to previous page</a></p>
+         </div>
+
+         <div data-role = " ">
+            <h4></h4>
+         </div>
+      </div>
+
+<!-- end of second page -->
+
+<div data-role = "page" id = "page3">
+   <div data-role = "Menu">
+      <h1>Menu</h1>
+   </div>
+
+   <div role = "main" class = "ui-content">
+      <p>
+        <img src = "images/m1.jpg" alt="1" height="30" width="30">
+
+        <img src = "images/m2.jpg" alt="1" height="30" width="30">
+
+        <img src = "images/m3.jpg" alt="1" height="30" width="30">
+
+        <img src = "images/m4.jpg" alt="1" height="30" width="30">
+
+      <p><a href = "#page1">Back to home</a></p>
+   </div>
+
+   <div data-role = " ">
+      <h4>Footer Text</h4>
+   </div>
+</div>
+<!-- second page -->
+      <div data-role = "page" id = "page4">
+         <div data-role = "Company info">
+            <h1></h1>
+         </div>
+
+         <div role = "main" class = "ui-content">
+             <img src = "images/jb.jpg" alt="1" height="30" width="30">
+            <p>
+              <center>Jollibee Plaza Bldg.
+                F. Ortigas Jr. Road (formerly Emerald Avenue)<br>
+                Pasig City, Philippines<br>
+                Telephone: (632) 634-1111<br>
+                Website: www.jollibee.com.ph<br>
+            <p><a href = "#page1">Back to home</a></p>
+         </div>
+
+         <div data-role = " ">
+            <h4></h4>
+         </div>
+      </div>
+
+      <!-- second page -->
+            <div data-role = "page" id = "page5">
+               <div data-role = "Company info">
+                  <h1></h1>
+               </div>
+
+               <div role = "main" class = "ui-content">
+                   <img src = "images/jb.jpg" alt="1" height="30" width="30">
+                  <p>
+                    <center>Jollibee Foods Corp. is engaged in developing, operating, and franchising fast food stores under the trade name Jollibee. The company operates through the following segments: Food Service, Franchising, and Leasing. ... Jollibee Foods was founded by Tony Tan Caktiong in 1975 and is headquartered in Pasig City, Philippines.
+                  <p><a href = "#page1">Back to home</a></p>
+               </div>
+
+               <div data-role = " ">
+                  <h4></h4>
+               </div>
+            </div>
+
+
+   </body>
+</html>
